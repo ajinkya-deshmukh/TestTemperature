@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestOpenMap">
+      <class name="ValidateMap">
         <methods>
+          <include name="NaviagteToMap"/>
           <include name="startUp"/>
           <include name="tearDown"/>
-          <include name="NaviagteToMap"/>
         </methods>
-      </class> <!-- TestOpenMap -->
+      </class> <!-- ValidateMap -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
