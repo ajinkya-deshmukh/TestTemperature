@@ -67,6 +67,11 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 ##############################
+## TestNG
+##############################
+test-output
+test-output-tests
+##############################
 ## Visual Studio Code
 ##############################
 .vscode/
